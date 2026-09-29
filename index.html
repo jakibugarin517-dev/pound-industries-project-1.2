@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pound Industries</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="profile">
+        <img class="profile-picture" src="images/POUND inc.png" alt="Pound Industries logo">
+        <div>
+            <h1>Pound Industries</h1>
+            <p>★ 5 from 64 verified reviews across 11 products</p>
+            <button type="button">Subscribe</button>
+        </div>
+    </div>
+
+    <!--
+    UNIQUE ELEMENT #1: nav
+    I used nav for the links at the top so I can go between my pages.
+    MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/nav
+    -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="intro">
+        <h2>Digital VR Assets</h2>
+        <p>Manufacturer and purrveyor of quality digital VR assets.</p>
+        <p>We'll make you woof for our products. ;)</p>
+
+        <!--
+        UNIQUE ATTRIBUTES: ping, referrerpolicy, rel
+        I used these on the store link. ping sends a request when the link is clicked,
+        referrerpolicy controls referrer info, and rel says what the link is.
+        MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a
+        MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel
+        -->
+        <a class="store-button" href="https://poundindustries.gumroad.com/" ping="/ping" referrerpolicy="no-referrer" rel="external">Visit Pound Industries</a>
+    </section>
+
+    <!--
+    UNIQUE ELEMENT #2: aside
+    I used aside for extra information about the store. It goes next to the main stuff.
+    MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside
+    -->
+    <aside class="store-info">
+        <h3>About the Store</h3>
+        <p>Pound Industries creates digital VR assets, avatar clothing, accessories, and retextures.</p>
+    </aside>
+
+    <section class="collection">
+        <h2>The Cyber Collection</h2>
+        <div class="product-grid">
+            <!--
+            UNIQUE ELEMENT #3: article
+            I used article for each product card so every product has its own section.
+            MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article
+            -->
+            <article class="product-card"><img src="images/HYNIED VISOR.png" alt="Pound Tech Visor Hyenid"><h3>Pound Tech Visor - Hyenid</h3><p>★ 5.0 (7)</p><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/rnpkh?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/Visor Option.png" alt="Pound Tech Visor Rexouium"><h3>Pound Tech Visor - Rexouium</h3><p>★ 4.9 (8)</p><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/lgtwzh?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/NOVABEAST VISOR.png" alt="Pound Tech Visor Novabeast"><h3>Pound Tech Visor - Novabeast</h3><p>★ 4.8 (6)</p><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/jawvry?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/NARDODRAGON.png" alt="Pound Tech Visor Nardoragon"><h3>Pound Tech Visor - Nardoragon</h3><p>★ 5.0 (7)</p><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/eyowit?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/HYNIED CYBER TOP.png" alt="Pound Cybertop Hyenid"><h3>Pound Cybertop - Hyenid</h3><p>★ 5.0 (2)</p><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/ujoez?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/HYNIED CYBER SHORTS.png" alt="Pound Cyber Shorts Hyenid"><h3>Pound Cyber Shorts - Hyenid</h3><p>★ 5.0 (2)</p><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/xjzvi?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/CYBER HEELS.png" alt="Pound Cyber Heels Hyenid"><h3>Pound Cyber Heels - Hyenid</h3><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/ykjiaj?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/REX CYBER TOP.png" alt="Pound Cybertop Rexouium"><h3>Pound Cybertop - Rexouium</h3><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/ltgti?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/CYBER COLLAR.png" alt="Pound Tech Cyber Collar"><h3>Pound Tech Cyber Collar - Hyenid Rexouium Fararex</h3><p>★ 5.0 (15)</p><strong>$0+</strong><a href="https://poundindustries.gumroad.com/l/ctdhf?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/POUND inc.png" alt="Pound Industries Media Kit"><h3>Pound Industries Media Kit</h3><p>★ 5.0 (6)</p><strong>$0+</strong><a href="https://poundindustries.gumroad.com/l/hqlno?layout=profile" rel="external">View Product</a></article>
+        </div>
+    </section>
+
+    <section class="collection">
+        <h2>Anubian Synthetics</h2>
+        <div class="product-grid">
+            <article class="product-card"><img src="images/FARA REX SKIRT.png" alt="Anubian Skirt Fara Rex"><h3>Anubian Skirt - Fara Rex</h3><p>★ 5.0 (7)</p><strong>$100+</strong><a href="https://poundindustries.gumroad.com/l/xchlg?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/VIWI TEXTURE.png" alt="VIWI Anubis Retexture"><h3>VIWI Anubis Retexture</h3><p>★ 5.0 (2)</p><strong>$150+</strong><a href="https://poundindustries.gumroad.com/l/pgnchv?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/HYNIED TEXTURES.png" alt="Hyenid Anubis Retexture"><h3>Hyenid Anubis Retexture</h3><strong>$150+</strong><a href="https://poundindustries.gumroad.com/l/lqupli?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/FARA REX TEXTURE.png" alt="Fara Rex Anubis Retexture"><h3>Fara Rex Anubis Retexture</h3><strong>$150+</strong><a href="https://poundindustries.gumroad.com/l/vfoet?layout=profile" rel="external">View Product</a></article>
+            <article class="product-card"><img src="images/HIGH REZ LOGO NAME.png" alt="Anubian Synthetics Media Kit"><h3>Anubian Synthetics Media Kit</h3><p>★ 5.0 (2)</p><strong>$0+</strong><a href="https://poundindustries.gumroad.com/l/iicgh?layout=profile" rel="external">View Product</a></article>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Pound Industries Gallery</h2>
+        <div class="gallery-grid">
+            <figure class="gallery-item"><img src="images/CYBER COLLAR.png" alt="Cyber Collar"><figcaption>Cyber Collar</figcaption></figure>
+            <figure class="gallery-item"><img src="images/CYBER HEELS.png" alt="Cyber Heels"><figcaption>Cyber Heels</figcaption></figure>
+            <figure class="gallery-item"><img src="images/FARA REX SKIRT.png" alt="Fara Rex Skirt"><figcaption>Fara Rex Skirt</figcaption></figure>
+            <figure class="gallery-item"><img src="images/FARA REX TEXTURE.png" alt="Fara Rex Texture"><figcaption>Fara Rex Texture</figcaption></figure>
+            <figure class="gallery-item"><img src="images/FARA REX VISOR.png" alt="Fara Rex Visor"><figcaption>Fara Rex Visor</figcaption></figure>
+            <figure class="gallery-item"><img src="images/HYNIED CYBER SHORTS.png" alt="Hyenid Cyber Shorts"><figcaption>Hyenid Cyber Shorts</figcaption></figure>
+            <figure class="gallery-item"><img src="images/HYNIED CYBER TOP 2.png" alt="Hyenid Cyber Top 2"><figcaption>Hyenid Cyber Top 2</figcaption></figure>
+            <figure class="gallery-item"><img src="images/HYNIED CYBER TOP.png" alt="Hyenid Cyber Top"><figcaption>Hyenid Cyber Top</figcaption></figure>
+            <figure class="gallery-item"><img src="images/HYNIED TEXTURES.png" alt="Hyenid Textures"><figcaption>Hyenid Textures</figcaption></figure>
+            <figure class="gallery-item"><img src="images/HYNIED VISOR.png" alt="Hyenid Visor"><figcaption>Hyenid Visor</figcaption></figure>
+            <figure class="gallery-item"><img src="images/NARDODRAGON.png" alt="Nardoragon"><figcaption>Nardoragon</figcaption></figure>
+            <figure class="gallery-item"><img src="images/NOVABEAST VISOR.png" alt="Novabeast Visor"><figcaption>Novabeast Visor</figcaption></figure>
+            <figure class="gallery-item"><img src="images/REX CYBER TOP.png" alt="Rexouium Cyber Top"><figcaption>Rexouium Cyber Top</figcaption></figure>
+            <figure class="gallery-item"><img src="images/VIWI TEXTURE.png" alt="VIWI Texture"><figcaption>VIWI Texture</figcaption></figure>
+            <figure class="gallery-item"><img src="images/VR ASSEST 2.png" alt="VR Asset 2"><figcaption>VR Asset 2</figcaption></figure>
+            <figure class="gallery-item"><img src="images/VR ASSET 3.png" alt="VR Asset 3"><figcaption>VR Asset 3</figcaption></figure>
+            <figure class="gallery-item"><img src="images/VR ASSET 4.png" alt="VR Asset 4"><figcaption>VR Asset 4</figcaption></figure>
+            <figure class="gallery-item"><img src="images/VR ASSET.png" alt="VR Asset"><figcaption>VR Asset</figcaption></figure>
+            <figure class="gallery-item"><img src="images/Visor Option.png" alt="Visor Option"><figcaption>Visor Option</figcaption></figure>
+            <figure class="gallery-item"><img src="images/POUND inc.png" alt="Pound Industries"><figcaption>Pound Industries</figcaption></figure>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Pound Industries Project</p>
+    <p>HTML &amp; CSS class project.</p>
+</footer>
+</body>
+</html>
