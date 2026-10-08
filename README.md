@@ -1,4 +1,5 @@
 # Pound Industries Personal Website
+https://jakibugarin517-dev.github.io/pound-industries-project-1.2/
 
 This is my Project 1 personal interest website about Pound Industries and digital VR assets.
 
